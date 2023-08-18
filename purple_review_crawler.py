@@ -91,8 +91,8 @@ def get_review_data(url, url_num):
 
         final_data.extend(data)
 
-    final_output = pd.DataFrame(final_data)
-    final_output.to_csv("data" + str(url_num) + ".csv", index=False)
+    final_outputs = pd.DataFrame(final_data)
+    final_outputs.to_csv("data" + str(url_num) + ".csv", index=False)
 
 
 with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:

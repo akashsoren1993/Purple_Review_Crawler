@@ -23,7 +23,7 @@ Modify the url and other relevant headers in the script to match the website str
 
  - `python purple_review_crawler.py`
 
-The script will scrape review data for each product ID in the CSV file and save the data in separate CSV files named "data1.csv", "data2.csv", and so on.
+This script will scrape review data for each product ID in the CSV file and save the data in separate CSV files named "data1.csv", "data2.csv", and so on.
 
 # Note:
 
