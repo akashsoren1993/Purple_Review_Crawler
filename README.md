@@ -1,4 +1,4 @@
-# Purplle Review Scraper
+# Purple Review Scraper
 
 This Python script is designed to scrape review data from the Purplle website for multiple products. It utilizes the requests library to send HTTP requests and extract review information from the website. The script uses concurrent threading to enhance the efficiency of data collection.
 
